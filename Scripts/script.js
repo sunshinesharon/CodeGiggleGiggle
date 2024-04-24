@@ -28,7 +28,7 @@ axios.get('https://api.giphy.com/v1/gifs/trending?api_key=uwQca8z4Gjk31dnur6rqqS
 
 const handleOnClick = () => {
   const searchValue = document.getElementById('search-input').value;
-  window.location = './pages/search-result.html?searchString=' + searchValue;
+  window.location = './Pages/search-results.html?searchString=' + searchValue;
 }
 
 document.getElementById('search-submit').addEventListener('click', handleOnClick)

@@ -22,4 +22,11 @@ header {
   font-size: 1.4rem;
 }
 
-/*# sourceMappingURL=search-results-styles.css.map */
+.results-section__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.results-section__card {
+  padding-right: 1rem;
+}/*# sourceMappingURL=search-results-styles.css.map */
