@@ -1,0 +1,63 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+header {
+  margin: 0 2rem;
+}
+
+.site-logo {
+  width: auto;
+  height: 120px;
+}
+.site-logo img {
+  height: 120px;
+}
+
+.hero__title {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.hero__searchbar {
+  display: flex;
+  justify-content: center;
+}
+
+.search__bar__container {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.search__bar__container input {
+  padding: 1rem;
+  border-radius: 30px;
+  width: 100vw;
+  max-width: 800px;
+  font-size: 1.2rem;
+}
+.search__bar__container button {
+  position: absolute;
+  right: 0;
+  border-radius: 30px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  z-index: 1;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.trending-gifs {
+  display: flex;
+  justify-content: center;
+}
+
+.trending-gifs__container {
+  display: flex;
+  justify-content: center;
+  width: 80vh;
+  max-width: 800px;
+  margin: 3rem 1rem;
+}/*# sourceMappingURL=styles.css.map */
