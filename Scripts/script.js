@@ -1,4 +1,4 @@
-import axios from "./libs/axios.js";
+import axios from "./Libs/axios.js";
 
 axios.get('https://api.giphy.com/v1/gifs/trending?api_key=uwQca8z4Gjk31dnur6rqqS6BjWTj3Ug5&limit=3')
   .then(function (response) {
